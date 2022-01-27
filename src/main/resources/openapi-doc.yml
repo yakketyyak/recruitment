@@ -1,0 +1,15 @@
+openAPI:
+  info:
+    version: '@project.version@'
+    title: '@project.name@'
+    description: '@project.description@'
+    termsOfService: https://project.com
+    contact:
+      email: pt.beugre@gmail.com
+      name: Recruitment project
+    licence:
+      name: API TERMS OF SERVICE
+      url: https://www.apache.org/licenses/LICENSE-2.0
+  servers:
+    - description: "TEST"
+      url: "http://localhost:4200/"
